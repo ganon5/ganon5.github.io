@@ -52,7 +52,32 @@
         <title></title>
     </head>
     <body>
-        <div id="map">
+              <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a>Menu item 1</a>
+                </li>
+                <li>
+                  <a>Menu item 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="container">
+          <div id="sidebar">
+            <div class="sidebar-wrapper">
+              <div id="features" class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Sidebar header</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="map"></div>
         </div>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
