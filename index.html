@@ -188,13 +188,13 @@
         var osmGeocoder = new L.Control.Geocoder({
             collapsed: true,
             position: 'topleft',
-            text: 'Pesquisa',
+            text: 'Search',
             title: 'Testing'
         }).addTo(map);
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .className += ' fa fa-search';
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .title += 'Search for a place';
+        .title += 'Procure por um Lugar';
         var baseMaps = {};
         L.control.layers(baseMaps,{'ne_10m_airports<br /><table><tr><td style="text-align: center;"><img src="legend/ne_10m_airports_1_MajorAirport0.png" /></td><td>Major Airport</td></tr><tr><td style="text-align: center;"><img src="legend/ne_10m_airports_1_MidAirport1.png" /></td><td>Mid Airport</td></tr><tr><td style="text-align: center;"><img src="legend/ne_10m_airports_1_SmallAirport2.png" /></td><td>Small Airport</td></tr></table>': layer_ne_10m_airports_1,"Google Satellite": layer_GoogleSatellite_0,}).addTo(map);
         setBounds();
